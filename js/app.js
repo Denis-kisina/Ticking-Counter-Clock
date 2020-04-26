@@ -27,7 +27,7 @@ function showTime() {
     let tick = document.getElementById("sound");
     let tic = document.createElement("audio");
     tic.src = "css/clock-tick.mp3";
-    let promise = tic.play().then(r => {alert("test")});
+    let promise = tic.play().then(r => {window.onload});
     setTimeout(showTime, 1000);
 }
 showTime();
