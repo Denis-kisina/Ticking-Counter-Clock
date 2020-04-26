@@ -24,7 +24,10 @@ function showTime() {
     document.getElementById("days").innerHTML = day;
     document.getElementById("month").innerHTML = month;
     document.getElementById("year").innerHTML = year;
-    document.getElementById("sound").play
+    let tick = document.getElementById("sound");
+    let tic = document.createElement("audio");
+    tic.src = "css/clock-tick.mp3";
+    let promise = tic.play().then(r => {alert("test")});
     setTimeout(showTime, 1000);
 }
 showTime();
