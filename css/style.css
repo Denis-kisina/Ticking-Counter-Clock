@@ -1,0 +1,25 @@
+body {
+    background-color: #000;
+    color: aliceblue;
+    text-align: center;
+}
+h1 {
+    color: cornflowerblue;
+}
+.container {
+
+}
+.time {
+    display: flex;
+    width: 19vw;
+    margin: auto;
+    background-color: #242424;
+}
+.t {
+    width: 100px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    color: #4c8bf5;
+    margin: 5px;
+}
